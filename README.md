@@ -53,3 +53,14 @@ The unified data marts enable highly strategic analytics that drive direct reven
 
 ## **Key Visualization & Application**
 The final output is an interactive analytics application built using Streamlit, designed for executive stakeholders. It provides a real-time, consolidated view of revenue performance, sales pipeline health, and customer utilization patterns.
+
+
+
+## **How to Run the Project**
+- **Clone the Repository:** `git clone [repo-url]`
+
+- **Setup Environment:** `pip install -r requirements.txt`
+
+- **Configure Database:** Fill in your MySQL credentials in the .env file.
+
+- **Run Streamlit App:** streamlit run app.py
