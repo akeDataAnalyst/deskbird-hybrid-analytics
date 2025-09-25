@@ -1,12 +1,12 @@
 # **Deskbird Hybrid Workplace Intelligence**
 This project demonstrates an end-to-end Data Analytics and Business Intelligence workflow for a modern SaaS company (Deskbird). It is designed to solve the problem of fragmented sales and usage data, providing a single source of truth for strategic decision-making and automated reporting.
 
-**
+
 
 ## **Problem Statement**
 Sales and product usage data are typically isolated (CRM, web events, product logs), making it impossible to answer high-value questions like, "Which company size is most likely to convert, and how do we optimize our office utilization product?" This project creates a robust data pipeline to unify these disparate sources, establish data integrity, and provide predictive and prescriptive insights for revenue growth and client advisory services.
 
-**
+
 
 ## **Architecture & Workflow**
 The pipeline follows a modern ELT (Extract, Load, Transform) workflow using the dbt (Data Build Tool) framework to manage all transformations, ensuring governance and modularity.
@@ -21,10 +21,9 @@ The pipeline follows a modern ELT (Extract, Load, Transform) workflow using the 
     
     - **Marts:** Creates final analytical tables (growth_funnel_mart, office_utilization_mart) ready for analysis.
 
-**
 - **Analyze & Visualize (Streamlit):** The cleaned data marts are connected to a Python analytics layer for advanced modeling and an interactive dashboard built with Streamlit.
 
-**
+
 
 ## **Technologies Used**
 - **dbt (Data Build Tool):** The core framework for defining, testing, and executing modular SQL transformations (the 'T' in ELT).
@@ -37,7 +36,7 @@ The pipeline follows a modern ELT (Extract, Load, Transform) workflow using the 
 
 - **Pandas/Statsmodels:** Key Python libraries for data manipulation and building the Logistic Regression propensity model.
 
-**
+
 
 ## Key Insights & Analytics
 The unified data marts enable highly strategic analytics that drive direct revenue action:
@@ -50,7 +49,7 @@ The unified data marts enable highly strategic analytics that drive direct reven
 
 - **A/B Testing:** Statistical analysis confirmed that a new free trial offer generated a 37.5% statistically significant uplift in conversions.
 
-**
+
 
 ## **Key Visualization & Application**
 The final output is an interactive analytics application built using Streamlit, designed for executive stakeholders. It provides a real-time, consolidated view of revenue performance, sales pipeline health, and customer utilization patterns.
