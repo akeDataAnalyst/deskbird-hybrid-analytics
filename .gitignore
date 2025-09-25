@@ -1,0 +1,15 @@
+# Environment Variables
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+venv/
+.venv/
+/tmp
+
+# DBT artifacts
+/dbt_packages
+/target/
+/logs/

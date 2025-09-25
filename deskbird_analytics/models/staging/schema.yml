@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: deskbird_data
+    database: deskbird_data
+    schema: deskbird_data
+    tables:
+      - name: ad_performance
+      - name: crm
+      - name: product_usage
+      - name: users
+      - name: companies
+      - name: website_visits
